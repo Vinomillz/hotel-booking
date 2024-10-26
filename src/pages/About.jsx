@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import manager from "../assets/Manager.jpeg";
+import bentfacerRbg from "../assets/bentfaceRbg.png";
 import AirportTransfer from "../assets/AirportTransfer.png";
 import UnderProtection from "../assets/UnderProtection.png";
 import AllInclusive from "../assets/AllInclusive.png";
@@ -49,7 +49,7 @@ const About = () => {
 					{/* Image Section */}
 					<div className=' md:w-1/2'>
 						<img
-							src={bentface}
+							src={bentfacerRbg}
 							alt='Sample'
 							className='rounded-full w-72 h-72  sm:w-64 sm:h-64 lg:w-60   md:w-1/2  '
 						/>
