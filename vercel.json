@@ -1,10 +1,3 @@
 {
-	"routes": [
-		{ "title": "Home", "to": "/" },
-		{ "title": "Rooms", "to": "/" },
-		{ "title": "About", "to": "/" },
-		{ "title": "Services", "to": "/" },
-		{ "title": "Contact", "to": "/" },
-		{ "title": "Booking Account", "to": "/" }
-	]
+	"rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
